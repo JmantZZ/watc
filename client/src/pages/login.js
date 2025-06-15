@@ -8,7 +8,7 @@ const Login= () => {
     let navigate = useNavigate();
 
      async function Validate(){
-        await axios.post('http://79.76.113.107:3001/validate', {
+        await axios.post('http://37.59.112.35:3001/validate', {
             username: document.getElementById('username').value,
             password: document.getElementById('password').value,
             user_id: document.getElementById('id').value

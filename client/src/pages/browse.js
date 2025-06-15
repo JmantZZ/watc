@@ -12,7 +12,7 @@ const Browse= () => {
 
 
     async function getvideos(){
-        await axios.post('http://79.76.113.107:3001/videolist', {
+        await axios.post('http://37.59.112.35:3001/videolist', {
             auth: sessionStorage.getItem('auth'),
           })
           .then(function (response) {
@@ -24,7 +24,7 @@ const Browse= () => {
     }
 
     async function checkvalid(){
-        await axios.post('http://79.76.113.107:3001/authorize', {
+        await axios.post('http://37.59.112.35:3001/authorize', {
             auth: sessionStorage.getItem('auth'),
           })
           .then(function (response) {

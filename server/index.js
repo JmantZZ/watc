@@ -7,7 +7,6 @@ const { Server } = require('socket.io')
 const cors = require('cors')
 const mariadb = require('mariadb');
 const session = require("express-session");
-const { randomUUID } = require("crypto");
 const fs = require('fs')
 
 
@@ -19,7 +18,7 @@ app.use(cors())
 const server = http.createServer(app)
 const io = new Server(server,{
 cors:{
-    origin:"http://79.76.113.107:3000",
+    origin:"http://37.59.112.35:3000",
     methods: ["GET", "POST"]
 }})
 
