@@ -1,0 +1,29 @@
+#navbar{
+    position: sticky;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: rgb(41, 41, 41);
+    height: 9vh;
+    box-shadow: 0px 3px 2px rgb(36, 36, 36);
+}
+
+.browseimg{
+    object-fit: contain;
+    height: 100%;
+}
+
+#bodydivbrowse{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: unset;
+    flex-direction: unset;
+}
+
+.imgdiv{
+  margin-top: 3%;
+  float: left;
+  width: 300px;
+  height: 300px;
+}
